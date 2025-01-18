@@ -33,16 +33,14 @@ minutes of the CAN traffic.
 
 ## 2. PHASE:
    
-Concatenate the datasets (concat.py file) with label update:
+1. Concatenate the datasets (concat.py file) with label update:
 
-0-> normal run
-   
+0-> normal run   
 1-> Dos attack
+2-> Fuzzy attack
+3-> Spoofing RPM attack
+4-> Spoofing GEAR attack
 
-2->Fuzzy attack
-
-3->Spoofing RPM attack
-
-4->Spoofing GEAR attack
+2. Build an IDS (Intrusion detection System) based on a multi-class classification with Random Forest. (
 
 
