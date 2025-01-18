@@ -27,6 +27,10 @@ minutes of the CAN traffic.
 5.    **Flag** : T or R, T represents injected message while R represents normal message
 
 
+#### RESULTS OF THE CLASSIFICATIONS
+
+![Screenshot 2025-01-18 alle 5 56 08 PM](https://github.com/user-attachments/assets/0a2b7158-7071-4a35-8ff7-9b0f47088d4f)
+
 
 
 
@@ -34,15 +38,20 @@ minutes of the CAN traffic.
    
 1. Concatenate the datasets (concat.py file) with label update:
 
-0-> normal run  
 
-1-> Dos attack
+   0-> normal run  
 
-2-> Fuzzy attack
+   1-> Dos attack
 
-3-> Spoofing RPM attack
+   2-> Fuzzy attack
 
-4-> Spoofing GEAR attack
+   3-> Spoofing RPM attack
+
+   4-> Spoofing GEAR attack
+   
+
+![Screenshot 2025-01-18 alle 5 56 30 PM](https://github.com/user-attachments/assets/cf45c997-dbbe-43c1-919e-63dd6281f1e6)
+
 
 
 2. Build an IDS (Intrusion detection System) based on a multi-class classification with Random Forest. (IDS_multiclass.py)
@@ -54,5 +63,6 @@ minutes of the CAN traffic.
 
 Results for the multi-class classification:
 
+![Screenshot 2025-01-18 alle 5 56 57 PM](https://github.com/user-attachments/assets/be9f13f3-9d0b-4b6c-af81-7014b8bb9c6d)
 
 
