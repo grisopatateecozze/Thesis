@@ -40,6 +40,14 @@ minutes of the CAN traffic.
 3-> Spoofing RPM attack
 4-> Spoofing GEAR attack
 
-2. Build an IDS (Intrusion detection System) based on a multi-class classification with Random Forest. (
+2. Build an IDS (Intrusion detection System) based on a multi-class classification with Random Forest. (IDS_multiclass.py)
+
+
+
+
+## 3.PHASE
+
+Results for the multi-class classification:
+
 
 
