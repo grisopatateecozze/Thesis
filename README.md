@@ -5,6 +5,10 @@
 
 Train&test Random Forest on each of the following 4 datasets*:
 
+![Screenshot 2025-01-18 alle 4 15 06 PM](https://github.com/user-attachments/assets/fdd8b96c-0f9a-45d1-86af-4aa869bb0a13)
+
+* .csv file download here: //www.dropbox.com/scl/fo/9rwsf9pclhvv9xxloojom/AF7JeRW893grZkigkulkAHk?rlkey=gglzjap922q57acw8vfp2almh&e=1&st=b7r7855u&dl=0
+
 DATASET CHARATERISTICS
 HCRL provideS car-hacking datasets which include DoS attack, fuzzy attack, spoofing the drive gear, and spoofing the RPM gauge. Datasets were constructed by logging CAN traffic via the OBD-II port from a real vehicle while message injection attacks were performing. Datasets contain each 300 intrusions of message injection. Each intrusion performed for 3 to 5 seconds, and each dataset has total 30 to 40 minutes of the CAN traffic.
 
@@ -20,9 +24,6 @@ DATA ATTRIBUTES
     4.    **DATA[0~7]** : data value (byte)
     5.    **Flag** : T or R, T represents injected message while R represents normal message
 
-![Screenshot 2025-01-18 alle 4 15 06 PM](https://github.com/user-attachments/assets/fdd8b96c-0f9a-45d1-86af-4aa869bb0a13)
-
-* .csv file download here: //www.dropbox.com/scl/fo/9rwsf9pclhvv9xxloojom/AF7JeRW893grZkigkulkAHk?rlkey=gglzjap922q57acw8vfp2almh&e=1&st=b7r7855u&dl=0
 
 
 
